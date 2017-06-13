@@ -20,7 +20,7 @@ export class InformacionEmpleado{
     this.trabajadores = [
          new Empleado('Fernando Amezcua', 23,'jrDev',true),
          new Empleado('Juan ramirez', 24,'srDev',true),
-         new Empleado('Pedro Nuñez', 26,'NinjaDev',true)
+         new Empleado('Pedro Nuez', 26,'NinjaDev',true)
     ];
     
     this.trabajadorExterno = true;
@@ -30,11 +30,15 @@ export class InformacionEmpleado{
     }
    
    ngOnInit(){  
-    console.log(this.empleado);
-    console.log(this.trabajadores);
+    //console.log(this.empleado);
+    //console.log(this.trabajadores);
    }
 
    cambiarExterno(valor){
     this.trabajadorExterno = valor; 
+   }
+
+   logColorSeleccionado(){
+       console.log(this.colorSeleccionado);
    }
 }
