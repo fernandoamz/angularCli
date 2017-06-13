@@ -13,6 +13,5 @@
         * Two way data-binding 
         * ngStyle en atributo 
         * ngClass en atributo
-        * ngClass en atributo
         * Directiva ngClass
-        * Configuracion de Routing 
+        * Configuración de Routing 
