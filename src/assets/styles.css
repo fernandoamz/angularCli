@@ -9,3 +9,10 @@
 .letraGrande{
     font-size: 40px;
 }
+
+.activado{
+    font-weight: bold; 
+    background: coral;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}

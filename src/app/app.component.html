@@ -1,4 +1,23 @@
 <!--fruta></fruta-->
 <!-- empleados></empleados -->
-
+<hr>
+<nav>
+    <a [routerLink]="['/pagina-principal']" [routerLinkActive]="['activado']">
+        Home
+    </a>
+    -
+    <a [routerLink]="['/fruta']" [routerLinkActive]="['activado']">
+        Fruta
+    </a>
+    -
+    <a [routerLink]="['/empleado']" [routerLinkActive]="['activado']">
+        Empleado
+    </a>
+    -
+    <a [routerLink]="['/contacto']" [routerLinkActive]="['activado']">
+        Contacto
+    </a>
+</nav>
+<hr>
 <router-outlet></router-outlet>
+
