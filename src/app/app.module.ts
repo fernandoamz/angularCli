@@ -9,6 +9,8 @@ import { FrutaComponent } from './fruta/fruta.component';
 import { InformacionEmpleado } from './empleados/empleados.component';
 import { HomeComponent } from './home/home.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { CochesComponent } from './coches/coches.component';
+import { ConversorPipe } from './pipes/conversor.pipe';
 
 @NgModule({
   imports: [
@@ -16,12 +18,15 @@ import { ContactoComponent } from './contacto/contacto.component';
     FormsModule,
     routing
   ],
+  // aqui va todo lo que tiene que ver con directivas, pipes y componentes 
   declarations: [
     AppComponent,
     FrutaComponent,
     InformacionEmpleado,
     HomeComponent,
-    ContactoComponent
+    ContactoComponent, 
+    ConversorPipe,
+    CochesComponent
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]

@@ -16,9 +16,16 @@ export class ContactoComponent{
     ){}
 
     ngOnInit(){
-        this._route.params.forEach(function(params: Params){
+        //Funcion de Tipo Flecha, funciona igual que los callbacks en js
+        this._route.params.forEach((params: Params)=>{
             this.parametro = params['page'];
         });
     }
 
+    redirigir(){
+        this._router.navigate(['/contacto','Fernando Amezcua']);
+    }
+    redirigirDos(){
+        this._router.navigate(['/pagina-principal']);
+    }
 }

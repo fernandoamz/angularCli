@@ -15,3 +15,7 @@
         * ngClass en atributo
         * Directiva ngClass
         * Configuración de Routing 
+        * Enviando parametros a URL 
+        * RouterLink 
+        * Pipes
+        * Servicios
