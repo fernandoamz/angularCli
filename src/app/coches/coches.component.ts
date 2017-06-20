@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { Coche } from './coche';
-import { PeticionesService } from '../services/peticiones.service'; 
+import { PeticionesService } from '../services/peticiones.service';
+
 
 @Component({
     selector: 'coches',
     templateUrl: './coches.component.html',
-    providers: [ PeticionesService ]
+    providers: [PeticionesService]
 })
 
 export class CochesComponent{
@@ -32,8 +33,9 @@ export class CochesComponent{
                 var errorMessage = <any>error;
                 console.log(errorMessage);
             }
-        );
+        )
     }
+
     onSubmit(){
         this.coches.push(this.coche);
         this.coche = new Coche("","","");

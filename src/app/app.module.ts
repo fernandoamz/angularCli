@@ -11,22 +11,25 @@ import { HomeComponent } from './home/home.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { CochesComponent } from './coches/coches.component';
 import { ConversorPipe } from './pipes/conversor.pipe';
+import { PlantillasComponent } from './plantillas/plantillas.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-    routing
+    HttpModule,
+    routing,
   ],
   // aqui va todo lo que tiene que ver con directivas, pipes y componentes 
   declarations: [
-    AppComponent,
-    FrutaComponent,
     InformacionEmpleado,
-    HomeComponent,
+    PlantillasComponent,
     ContactoComponent, 
+    CochesComponent,
+    FrutaComponent,
+    HomeComponent,
     ConversorPipe,
-    CochesComponent
+    AppComponent
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]

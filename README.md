@@ -19,3 +19,6 @@
         * RouterLink 
         * Pipes
         * Servicios
+        * Peticiones AJAX en Angular (HTTP, Llamadas a servicios REST)
+        * if y else con ngTemplate
+        * if,else y then
